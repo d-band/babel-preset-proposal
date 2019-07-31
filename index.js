@@ -37,7 +37,7 @@ module.exports = (api, options) => {
         plugins.push(plugin);
       }
     } else {
-      plugins.push([plugin, Object.assign(value, option)]);
+      plugins.push([plugin, Object.assign({}, value, option)]);
     }
   });
   return { plugins: plugins };
