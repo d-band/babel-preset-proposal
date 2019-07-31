@@ -18,7 +18,8 @@ const proposals = [
 const defaultOptions = {
   'decorators': { legacy: true },
   'class-properties': { loose: true },
-  'pipeline-operator': { proposal: 'minimal' }
+  'pipeline-operator': { proposal: 'minimal' },
+  'private-methods': { loose: true }
 };
 
 module.exports = (api, options) => {
