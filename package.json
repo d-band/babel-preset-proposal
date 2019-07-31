@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-proposal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "babel presets for proposals",
   "main": "index.js",
   "repository": {
