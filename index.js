@@ -19,7 +19,8 @@ const defaultOptions = {
   'class-properties': { loose: true },
   'private-property-in-object': { loose: true },
   'pipeline-operator': { proposal: 'minimal' },
-  'private-methods': { loose: true }
+  'private-methods': { loose: true },
+  'record-and-tuple': { syntaxType: 'hash' }
 };
 
 module.exports = (api, options) => {
