@@ -1,4 +1,4 @@
-Babel [experimental](https://babeljs.io/docs/en/plugins#experimental) plugins
+Babel [proposals](https://babeljs.io/docs/en/plugins-list#tc39-proposals) plugins
 =====
 
 ## Install
