@@ -33,6 +33,7 @@ or with options:
 
 ```json
 {
+  "class-static-block": true,
   "decorators": { "legacy": true },
   "class-properties": { "loose": true },
   "do-expressions": true,
@@ -40,13 +41,11 @@ or with options:
   "export-namespace-from": true,
   "function-bind": true,
   "function-sent": true,
-  "logical-assignment-operators": true,
-  "nullish-coalescing-operator": true,
-  "numeric-separator": true,
-  "optional-chaining": true,
   "partial-application": true,
   "pipeline-operator": { "proposal": "minimal" },
-  "private-methods": true,
+  "private-methods": { "loose": true },
+  "private-property-in-object": { "loose": true },
+  "record-and-tuple": { "syntaxType": "hash" },
   "throw-expressions": true
 }
 ```
